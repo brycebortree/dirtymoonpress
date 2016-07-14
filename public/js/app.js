@@ -14,6 +14,31 @@ app.config(['$stateProvider',
     templateUrl: 'views/home.html',
     controller: 'HomeCtrl'
   })
+  $stateProvider
+  .state('history', {
+    url: '/history',
+    templateUrl: 'views/history.html'
+  })
+  $stateProvider
+  .state('masthead', {
+    url: '/masthead',
+    templateUrl: 'views/masthead.html'
+  })
+  $stateProvider
+  .state('submissions', {
+    url: '/submissions',
+    templateUrl: 'views/submissions.html'
+  })
+  $stateProvider
+  .state('home', {
+    url: '/',
+    templateUrl: 'views/home.html'
+  })
+  $stateProvider
+  .state('buy', {
+    url: '/buy',
+    templateUrl: 'views/buy.html'
+  })
 
-  $locationProvider.html5Mode(false);
+  $locationProvider.html5Mode(true);
 }]);
