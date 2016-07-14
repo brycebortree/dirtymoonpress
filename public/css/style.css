@@ -16,3 +16,7 @@ main {
 footer {
   background-color: brown lighten-3;
 }
+
+.parallax img{
+  display: inherit !important;
+}

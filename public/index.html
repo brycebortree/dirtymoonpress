@@ -8,7 +8,7 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/materialize.min.css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Open+Sans:400,300,600,800,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -21,7 +21,7 @@
           <a href="#" class="brand-logo center"><img src="assets/dirtymoonpress.png" height="60px"/> </a>
           <ul id="nav-mobile" class="left hide-on-med-and-down">
             <li><a href="/buy">Buy</a></li>
-            <li><a href="/history">Components</a></li>
+            <li><a href="/history">History</a></li>
             <li><a href="/masthead">Masthead</a></li>
             <li><a href="/submissions">Submissions</a></li>
           </ul>
@@ -73,10 +73,15 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular-resource.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
   <!-- Angular Material Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
   <script src="./js/script.js"></script>
+  <script src="./js/materialize.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/services.js"></script>
   <script src="./js/controllers.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+  </script>
 </body>
 </html>
