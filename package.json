@@ -1,7 +1,7 @@
 {
-  "name": "angular-base",
+  "name": "dirtymoonpress",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>dirty moon press</h1>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/brytree/angular-base/issues"
   },
-  "homepage": "https://github.com/brytree/angular-base#readme"
+  "homepage": "https://github.com/brytree/angular-base#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {}
 }
