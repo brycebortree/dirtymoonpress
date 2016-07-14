@@ -30,11 +30,6 @@ app.config(['$stateProvider',
     templateUrl: 'views/submissions.html'
   })
   $stateProvider
-  .state('home', {
-    url: '/',
-    templateUrl: 'views/home.html'
-  })
-  $stateProvider
   .state('buy', {
     url: '/buy',
     templateUrl: 'views/buy.html'
