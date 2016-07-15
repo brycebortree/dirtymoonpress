@@ -34,6 +34,11 @@ app.config(['$stateProvider',
     url: '/buy',
     templateUrl: 'views/buy.html'
   })
+  $stateProvider
+  .state('show', {
+    url: '/show',
+    templateUrl: 'views/show.html'
+  })
 
   $locationProvider.html5Mode(true);
 }]);
