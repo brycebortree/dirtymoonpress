@@ -15,11 +15,6 @@ app.config(['$stateProvider',
     controller: 'HomeCtrl'
   })
   $stateProvider
-  .state('history', {
-    url: '/history',
-    templateUrl: 'views/history.html'
-  })
-  $stateProvider
   .state('about', {
     url: '/about',
     templateUrl: 'views/about.html'
