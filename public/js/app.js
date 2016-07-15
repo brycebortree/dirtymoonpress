@@ -20,9 +20,9 @@ app.config(['$stateProvider',
     templateUrl: 'views/history.html'
   })
   $stateProvider
-  .state('masthead', {
-    url: '/masthead',
-    templateUrl: 'views/masthead.html'
+  .state('about', {
+    url: '/about',
+    templateUrl: 'views/about.html'
   })
   $stateProvider
   .state('submissions', {
@@ -30,9 +30,9 @@ app.config(['$stateProvider',
     templateUrl: 'views/submissions.html'
   })
   $stateProvider
-  .state('buy', {
-    url: '/buy',
-    templateUrl: 'views/buy.html'
+  .state('cart', {
+    url: '/cart',
+    templateUrl: 'views/cart.html'
   })
   $stateProvider
   .state('show', {
