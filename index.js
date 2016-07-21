@@ -10,4 +10,4 @@ app.all('/*', function(req, res, next) {
     res.sendFile('/public/index.html', { root: __dirname });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
