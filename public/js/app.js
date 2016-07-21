@@ -34,6 +34,23 @@ app.config(['$stateProvider',
     url: '/show',
     templateUrl: 'views/show.html'
   })
+  .state('seven', {
+    url: '/seven',
+    templateUrl: 'views/seven.html'
+  })
+  .state('we', {
+    url: '/we',
+    templateUrl: 'views/we.html'
+  })
+  .state('pounce', {
+    url: '/pounce',
+    templateUrl: 'views/pounce.html'
+  })
+  .state('dead', {
+    url: '/dead',
+    templateUrl: 'views/dead.html'
+  })
+
 
   $locationProvider.html5Mode(true);
 }]);
