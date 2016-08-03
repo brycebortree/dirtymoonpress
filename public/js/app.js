@@ -25,9 +25,16 @@ app.config(['$stateProvider',
     templateUrl: 'views/submissions.html'
   })
   $stateProvider
+  .state('buy', {
+    url: '/buy',
+    templateUrl: 'views/buy.html',
+    controller: 'storeCtrl',
+  })
+  $stateProvider
   .state('cart', {
     url: '/cart',
-    templateUrl: 'views/cart.html'
+    templateUrl: 'views/cart.html',
+    controller: 'storeCtrl',
   })
   $stateProvider
   .state('show', {
