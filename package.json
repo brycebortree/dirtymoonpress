@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/brytree/angular-base#readme",
   "dependencies": {
+    "angular-stripe": "^4.2.12",
     "express": "^4.13.4",
     "materialize-css": "^0.97.6"
   },
