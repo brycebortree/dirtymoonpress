@@ -8,7 +8,6 @@ A literary small press website. Constructed with the front-end library Foundatio
 [dirtymoonpress.com](http://dirtymoonpress.com)
 
 ## Built With
-
 * Angular - for a Single Page Application feel that's more seamless for users
 * Foundation - for the grid that is mobile friendly
 * HTML - for markup
@@ -16,6 +15,12 @@ A literary small press website. Constructed with the front-end library Foundatio
 * SASS - for useful variables when creating stylesheets
 * JavaScript - for making actionable items, used libraries Easing, History
 * My [Angular Base](https://github.com/brytree/angular-base) which makes it easy to build an angular app 
+
+## Future Goals
+* Integrate Stripe or NG-Cart
+* Pretty as a picture front end
+* Learn material
+* Strange plotline for the press folk
 
 ## License
 
